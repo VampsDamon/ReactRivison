@@ -1,10 +1,11 @@
+
 export default function Card() {
   return (
     <div className="w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <a href="/">
         <img
-          className="p-8 rounded-t-lg"
-          src="https://github.com/VampsDamon/ReactRivison/blob/main/09TheamsWatcher/src/assets/aa.jpg"
+          className="p-8 rounded-t-lg   h-80 object-cover object-center w-[100%] "
+          src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW9kZWx8ZW58MHx8MHx8fDA%3D"
           alt="product_image1"
         />
       </a>
